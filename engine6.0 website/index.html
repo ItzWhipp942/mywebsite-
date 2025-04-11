@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Engine6.0 - Roblox Executor & Script</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Engine6.0</h1>
+    <p>The Ultimate Roblox Executor & Script Hub</p>
+  </header>
+
+  <div class="section">
+    <h2>What is Engine6.0?</h2>
+    <p>
+      Engine6.0 is a powerful, easy-to-use Roblox executor that brings your scripts to life! Whether you're a scripter or just exploring, Engine6.0 is your perfect companion in the Roblox universe.
+    </p>
+    <a href="https://discord.gg/hXRtEhJj" class="button" target="_blank" rel="noopener noreferrer">Download Engine6.0</a>
+  </div>
+
+  <div class="section">
+    <h2>✨ Features</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>💻 Custom Executor</h3>
+        <p>Run scripts with advanced execution that’s fast, stable, and undetectable.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🧠 Smart UI</h3>
+        <p>Futuristic, neon-inspired interface that’s simple but slick and powerful.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📜 Script Hub</h3>
+        <p>Built-in script library full of fun and powerful tools, updated weekly!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="download">
+    <h2>📥 Get Engine6.0</h2>
+    <p>
+      Download Engine6.0 and step into the future of Roblox scripting. Totally free and easy to install.
+    </p>
+    <a href="#" class="button">Download Engine6.0</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Engine6.0 | Made for Roblox lovers, by Roblox lovers.
+  </footer>
+
+  <!-- Scroll animation JS -->
+  <script>
+    const sections = document.querySelectorAll('.section');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+</body>
+</html>
